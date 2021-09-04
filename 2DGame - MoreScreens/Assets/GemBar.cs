@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class GemBar : MonoBehaviour
+{
+
+    public Slider slider;
+
+    public void SetMaxGem(int gem)
+    {
+      slider.maxValue = gem;
+    //  slider.value = gem;
+    }
+
+    public void SetGem(int gem)
+    {
+      slider.value = gem;
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+}
